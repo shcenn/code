@@ -111,6 +111,7 @@ header {
     color: var(--white-text-color);
     padding: 0.5rem 1.1rem;
     margin: auto;
+    transition: 0.2s ease;
 }
 .navbar a:hover{
     background: var(--green-color);
@@ -134,7 +135,6 @@ text-align: center;
 }
 .main{
     margin: 50px;
-    
 }
 .main span{
     font-size: 2.2rem;
@@ -151,8 +151,6 @@ text-align: center;
 
 .recipes{
     padding: 200px;
-
-
 }
 .recipes span{
     font-weight: 400;
@@ -189,6 +187,7 @@ text-align: center;
     column-gap: 00.5rem;
     max-width: 160px;
     text-indent: 10px;
+    transition: 0.2s ease;
 }
 .btn .bx{
     padding: 4px;
@@ -199,7 +198,6 @@ text-align: center;
 }
 .btn:hover{
     background: var(--orange-color);
-    transition: 0.2s ease;
 }
 /* About */
 .about{
@@ -215,15 +213,18 @@ text-align: center;
 .about-text span{
     font-weight: 600;
     text-transform: uppercase;
-    color: var(--light-green-color);
+    color: var(--light-green-color);;
 }
 .about-text span:hover{
     color: var(--orange-color);
-    transition: background 0.5s;   
+    transition: 0.2s ease;  
 }
 .about-text p{
-    margin: 1rem 0 0.5rem;
-    line-height: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 5px 10px;
+    line-height: 30px;
     color: var(--white-text-color);
 }
 /* Footer */
@@ -238,6 +239,7 @@ text-align: center;
     align-items: center;
     text-align: center;
     min-height: 100px;
+    border-top: var(--orange-color);
 }
 .footer-box{
     display: flex;
@@ -267,11 +269,11 @@ text-align: center;
     color: var(--light-green-color);
     font-size: 20px;
     border-radius: 5rem;
+    transition: 0.2s all linear;
 }
 .social .bx:hover{
     background-color: var(--orange-color);
-    color: var(--white-text-color);
-    transition: 0.2s all linear;
+    color: var(--white-text-color); 
 }
 /* Copyright */
 .copyright{
